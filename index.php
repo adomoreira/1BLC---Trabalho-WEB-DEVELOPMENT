@@ -17,13 +17,13 @@ session_start();
 		?>
 		<form method="POST" action="processa.php">
 			<label>Codigo Produto: <br><br></label>
-			<input type="number_format" name="codpro" placeholder="Apenas números"><br><br>
+			<input type="text" name="codpro" placeholder="Apenas números"><br><br>
 			
 			<label>Descrição: <br><br>     </label>
-			<input type="text" name="email" placeholder="Nome do produto"><br><br>
+			<input type="text" name="desc_p" placeholder="Nome do produto"><br><br>
             
             <label>Quantidade: <br><br>    </label>
-			<input type="number_format" name="qtd" placeholder="Qtd em estoque"><br><br>
+			<input type="text" name="qtd" placeholder="Qtd em estoque"><br><br>
             
             <label>Localização: <br><br>   </label>
 			<input type="text" name="loc" placeholder="Posição física no estoque"><br><br>
